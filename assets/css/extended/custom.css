@@ -1,0 +1,56 @@
+/* suncare.kr: 코랄 핑크 & 웜 오렌지 — 따뜻하고 친근한 스킨케어 느낌 */
+:root {
+    --primary: #be185d;
+    --secondary: #f59e0b;
+    --bg-primary: #fff7ed;
+    --text-primary: #451a03;
+}
+
+.post-title {
+    color: var(--primary) !important;
+}
+
+.post-content a {
+    color: #db2777;
+    border-bottom: 2px solid var(--secondary);
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.post-content a:hover {
+    color: var(--secondary);
+}
+
+.ltr .entry-cover {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(190, 24, 93, 0.1);
+}
+
+header .nav {
+    border-bottom: 3px solid var(--secondary);
+}
+
+.toc a {
+    color: var(--primary) !important;
+}
+
+.entry .entry-header h2 {
+    color: var(--primary);
+}
+
+footer {
+    border-top: 3px solid var(--secondary);
+}
+
+.post-content hr {
+    border: none;
+    height: 3px;
+    background: linear-gradient(90deg, var(--primary), var(--secondary), transparent);
+}
+
+/* 따뜻한 인용문 스타일 */
+.post-content blockquote {
+    border-left: 4px solid var(--secondary);
+    background: rgba(245, 158, 11, 0.06);
+}
